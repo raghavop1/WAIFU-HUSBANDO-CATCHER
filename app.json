@@ -6,14 +6,7 @@
    "keywords": ["telegram", "modular", "group", "management", "Miko"],
    "repository": "https://github.com/raghavop1/WAIFU-HUSBANDO-CATCHER",
    "stack": "heroku-22",
-   "addons": [
-      {
-         "plan": "heroku-postgresql",
-         "options": {
-            "version": "12"
-         }
-      }
-   ],
+   
    "env": {
       "API_ID": {
          "description": "Obtain this value from my.telegram.org/apps.",
@@ -48,11 +41,6 @@
          "description": "Required for MongoDB database connections.",
          "required": true,
          "value": "mongodb+srv://"
-      },
-      "DATABASE_URL": {
-         "description": "Required for SQL database connections.",
-         "required": true,
-         "value": "postgres://"
       },
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
