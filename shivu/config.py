@@ -6,7 +6,7 @@ class Config(object):
     sudo_users = 
     GROUP_ID = "-1002100894623"
     TOKEN = "7055204971:AAHbREm4BeNyKXxXWidGWA4jXqn9KHKZVIo"
-    mongo_url = "mongodb+srv://HaremDBBot:ThisIsPasswordForHaremDB@haremdb.swzjngj.mongodb.net/?retryWrites=true&w=majority"
+    mongo_url = "mongodb+srv://raghavvvv09:DpaQVcz8AJW8grFX@cluster0.edbvlbl.mongodb.net/?retryWrites=true&w=majority"
     PHOTO_URL = ["https://telegra.ph/file/e82d9ba84396bf1b1a9ca.jpg", "https://telegra.ph/file/e370ab1aeea76df6024c8.jpg"]
     SUPPORT_CHAT = "raghavsupport"
     UPDATE_CHAT = "raghavsupport"
